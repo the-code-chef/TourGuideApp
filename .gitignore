@@ -1,0 +1,9 @@
+*.iml
+.gradle
+.idea/gradle.xml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/libraries
+.idea
+build
+captures
