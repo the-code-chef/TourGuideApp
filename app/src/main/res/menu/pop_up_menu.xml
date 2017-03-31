@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/itemshare"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Share"/>
+    <item
+        android:id="@+id/itempremove"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Remove"/>
+
+</menu>

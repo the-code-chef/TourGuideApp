@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/card_color"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_240"
+        android:background="@drawable/home3"
+        android:contentDescription="@string/hotel_image"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center"
+        android:background="@color/content_bgcolor"
+        android:gravity="top|center"
+        android:orientation="vertical">
+
+        <com.example.deepanshu.tourguideapp.customfonts.MyTextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_80"
+            android:gravity="top|center"
+            android:textColor="@color/fff"
+            android:textSize="@dimen/sp_18" />
+
+        <com.example.deepanshu.tourguideapp.customfonts.MyTextView
+            android:id="@+id/hotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_10"
+            android:gravity="top|center"
+            android:textColor="@color/fff"
+            android:textSize="@dimen/sp_16" />
+    </LinearLayout>
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="tour_guide">Tour Guide</string>
+    <string name="hotel_image">Hotel Image</string>
+
+    <!-- First Data -->
+    <string name="one_name">New York</string>
+    <string name="one_date">Fri 14 - Mon 18</string>
+    <string name="one_hotel">325</string>
+    <string name="one_bed">2</string>
+    <string name="one_adult">2</string>
+    <string name="one_children">2</string>
+    <string name="one_address">New York, NY, United States</string>
+
+    <!-- Second Data -->
+    <string name="two_name">New Jersey</string>
+    <string name="two_date">Tue 11 - Mon 18</string>
+    <string name="two_hotel">315</string>
+    <string name="two_bed">1</string>
+    <string name="two_adult">1</string>
+    <string name="two_children">2</string>
+    <string name="two_address">New Jersey, United States</string>
+
+    <!-- Third Data -->
+    <string name="three_name">New Hampshire</string>
+    <string name="three_date">Mon 18 - Wed 20</string>
+    <string name="three_hotel">225</string>
+    <string name="three_bed">3</string>
+    <string name="three_adult">2</string>
+    <string name="three_children">2</string>
+    <string name="three_address">New Hampshire, United States</string>
+
+    <!-- Fourth Data -->
+    <string name="four_name">Nebraska</string>
+    <string name="four_date">Fri 7 - Mon 11</string>
+    <string name="four_hotel">325</string>
+    <string name="four_bed">2</string>
+    <string name="four_adult">2</string>
+    <string name="four_children">2</string>
+    <string name="four_address">Nebraska City, NE, United States</string>
+
+    <!-- Fifth Data -->
+    <string name="five_name">Washignton</string>
+    <string name="five_date">Fri 14 - Mon 18</string>
+    <string name="five_hotel">375</string>
+    <string name="five_bed">2</string>
+    <string name="five_adult">2</string>
+    <string name="five_children">2</string>
+    <string name="five_address">Washington, DC, United States</string>
+
+    <string name="share_intent">Detail Bundle</string>
+</resources>

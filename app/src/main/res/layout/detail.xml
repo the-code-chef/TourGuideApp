@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/home_toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/detail_frame_bg">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_220"
+            android:background="@drawable/gulf"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_220"
+            android:background="@color/detail_image_bg"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.example.deepanshu.tourguideapp.customfonts.MyTextView
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="top|center"
+                android:text="New Yourk, U.S"
+                android:textColor="@color/fff"
+                android:textSize="@dimen/sp_18" />
+
+            <com.example.deepanshu.tourguideapp.customfonts.MyTextView
+                android:id="@+id/hotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_10"
+                android:gravity="top|center"
+                android:text="325 Hotels"
+                android:textColor="@color/fff"
+                android:textSize="@dimen/sp_16" />
+
+            <LinearLayout
+                android:id="@+id/location"
+                android:layout_width="@dimen/dp_230"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/rounded"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_15">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_15"
+                    android:layout_height="@dimen/dp_15"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:background="@drawable/ic_location" />
+
+                <com.example.deepanshu.tourguideapp.customfonts.MyTextView
+                    android:id="@+id/changeLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:text="Change Location"
+                    android:textColor="@color/fff" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/date_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_15">
+
+        <com.example.deepanshu.tourguideapp.customfonts.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dates"
+            android:textColor="@color/fff" />
+
+        <com.example.deepanshu.tourguideapp.customfonts.MyTextView
+            android:id="@+id/dates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Friday 14 - Monday 18"
+            android:textColor="@color/date_text_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/info_row_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/info_row_bg"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_15">
+
+            <com.example.deepanshu.tourguideapp.customfonts.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_weight="1"
+                android:text="Beds"
+                android:textColor="@color/fff"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:id="@+id/bed"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_35"
+                android:layout_marginRight="@dimen/dp_55"
+                android:text="2"
+                android:textColor="@color/fff"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.1dp"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_35"
+            android:background="@color/divider_info_bg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/info_row_bg"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_15">
+
+            <com.example.deepanshu.tourguideapp.customfonts.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_weight="1"
+                android:text="Adults"
+                android:textColor="@color/fff"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:id="@+id/adult"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_35"
+                android:layout_marginRight="@dimen/dp_55"
+                android:text="2"
+                android:textColor="@color/fff"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_35"
+            android:background="@color/divider_info_bg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/info_row_bg"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_15">
+
+            <com.example.deepanshu.tourguideapp.customfonts.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_weight="1"
+                android:text="Children"
+                android:textColor="@color/fff"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:id="@+id/children"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp_35"
+                android:layout_marginRight="@dimen/dp_55"
+                android:text="2"
+                android:textColor="@color/fff"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.1dp"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_35"
+            android:background="@color/divider_info_bg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_250"
+            android:background="@color/address_bg"
+            android:orientation="vertical">
+
+            <com.example.deepanshu.tourguideapp.customfonts.MyTextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_80"
+                android:layout_marginRight="@dimen/dp_80"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/rounded1"
+                android:padding="@dimen/dp_15"
+                android:text="Search"
+                android:textAlignment="center"
+                android:textColor="@color/fff"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="buttoncolor_detail">#05BDBF</color>
+    <color name="divider_color">#00000000</color>
+    <color name="toolbar_background">#2E2F3A</color>
+    <color name="fff">#fff</color>
+    <color name="card_color">#EEEEEEEE</color>
+    <color name="content_bgcolor">#5000</color>
+    <color name="detail_frame_bg">#8000</color>
+    <color name="detail_image_bg">#99000000</color>
+    <color name="date_bg">#232A34</color>
+    <color name="date_text_color">#5D616A</color>
+    <color name="info_row_bg">#2C3039</color>
+    <color name="divider_info_bg">#393D46</color>
+    <color name="address_bg">#2C3039</color>
+</resources>
