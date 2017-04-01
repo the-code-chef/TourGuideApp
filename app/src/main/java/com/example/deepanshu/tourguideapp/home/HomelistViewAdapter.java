@@ -63,7 +63,7 @@ class HomelistViewAdapter extends BaseAdapter {
 
         viewHoder.city.setText(beanClass.getCity());
         viewHoder.hotel.setText(beanClass.getHotel());
-        viewHoder.hotel.append(" Hotels");
+        viewHoder.hotel.append(convertView.getResources().getString(R.string.append_hotels));
         viewHoder.image.setImageResource(beanClass.getImage());
 
         return convertView;
