@@ -82,4 +82,14 @@
     <string name="change_your_hotel">Change Your Hotel</string>
     <string name="append_hotels">Hotels</string>
     <string name="restaurent">Restaurent</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="food_court">Food Court</string>
+    <string name="party_place">Party Place</string>
+    <string name="hotel">Hotels</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
 </resources>

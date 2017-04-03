@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.deepanshu.tourguideapp.customfonts.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/toolbar_background"
+        android:gravity="center"
+        android:text="@string/food_court"
+        android:textColor="@color/fff"
+        android:textSize="@dimen/sp_16" />
+
+    <ListView
+        android:id="@+id/partyplacelistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/divider_color" />
+</LinearLayout>

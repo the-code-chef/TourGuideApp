@@ -21,24 +21,23 @@ import java.util.List;
 
 public class DetailActivity extends Activity implements View.OnClickListener {
 
-    LinearLayout location;
-    ImageView image;
-    TextView city;
-    TextView hotel;
-    TextView date;
-    TextView bed;
-    TextView adult;
-    TextView children;
-    TextView address;
-    ListView restaurentList;
-    TextView changeLocation;
+    private ImageView image;
+    private TextView city;
+    private TextView hotel;
+    private TextView date;
+    private TextView bed;
+    private TextView adult;
+    private TextView children;
+    private TextView address;
+    private ListView restaurentList;
+    private TextView changeLocation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detail);
 
-        location = (LinearLayout) findViewById(R.id.location);
+        LinearLayout location = (LinearLayout) findViewById(R.id.location);
         image = (ImageView) findViewById(R.id.image);
         city = (TextView) findViewById(R.id.city);
         hotel = (TextView) findViewById(R.id.hotel);
